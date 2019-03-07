@@ -5,3 +5,8 @@ files = glob.glob('./files/*.txt')
 
 for file in files:
     print(f'{file}')
+    
+files = glob.glob('./files/?.txt')
+
+for file in files:
+    print(f'{file}')
